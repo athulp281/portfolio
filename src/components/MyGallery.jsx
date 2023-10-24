@@ -3,6 +3,7 @@ import ScrollReveal from "scrollreveal";
 import MyContext from "../useContext/Context";
 import "../assets/Css/MyGallery.css";
 import instaimg from "../assets/img/insta-img.png";
+import img1 from "../assets/img/1.jpg";
 
 export default function MyGallery() {
     const { data, setData } = useContext(MyContext);
@@ -69,10 +70,7 @@ export default function MyGallery() {
                         <div className="main-container">
                             <div className="image-container">
                                 <span style={inlineStyle1}>
-                                    <img
-                                        src="/src/assets/img/1.jpg"
-                                        alt="not found"
-                                    />
+                                    <img src={img1} alt="not found" />
                                 </span>
                                 <span style={inlineStyle2}>
                                     <img
