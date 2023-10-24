@@ -4,6 +4,13 @@ import MyContext from "../useContext/Context";
 import "../assets/Css/MyGallery.css";
 import instaimg from "../assets/img/insta-img.png";
 import img1 from "../assets/img/1.jpg";
+import img2 from "../assets/img/2.jpg";
+import img3 from "../assets/img/3.jpg";
+import img4 from "../assets/img/4.jpg";
+import img5 from "../assets/img/5.jpg";
+import img6 from "../assets/img/6.jpg";
+import img7 from "../assets/img/7.jpg";
+import img8 from "../assets/img/8.jpg";
 
 export default function MyGallery() {
     const { data, setData } = useContext(MyContext);
@@ -73,46 +80,25 @@ export default function MyGallery() {
                                     <img src={img1} alt="not found" />
                                 </span>
                                 <span style={inlineStyle2}>
-                                    <img
-                                        src="/src/assets/img/2.jpg"
-                                        alt="not found"
-                                    />
+                                    <img src={img2} alt="not found" />
                                 </span>
                                 <span style={inlineStyle3}>
-                                    <img
-                                        src="/src/assets/img/3.jpg"
-                                        alt="not found"
-                                    />
+                                    <img src={img3} alt="not found" />
                                 </span>
                                 <span style={inlineStyle4}>
-                                    <img
-                                        src="/src/assets/img/4.jpg"
-                                        alt="not found"
-                                    />
+                                    <img src={img4} alt="not found" />
                                 </span>
                                 <span style={inlineStyle5}>
-                                    <img
-                                        src="/src/assets/img/5.jpg"
-                                        alt="not found"
-                                    />
+                                    <img src={img5} alt="not found" />
                                 </span>
                                 <span style={inlineStyle6}>
-                                    <img
-                                        src="/src/assets/img/6.jpg"
-                                        alt="not found"
-                                    />
+                                    <img src={img6} alt="not found" />
                                 </span>
                                 <span style={inlineStyle7}>
-                                    <img
-                                        src="/src/assets/img/7.jpg"
-                                        alt="not found"
-                                    />
+                                    <img src={img7} alt="not found" />
                                 </span>
                                 <span style={inlineStyle8}>
-                                    <img
-                                        src="/src/assets/img/1.jpg"
-                                        alt="not found"
-                                    />
+                                    <img src={img8} alt="not found" />
                                 </span>
                             </div>
                         </div>
