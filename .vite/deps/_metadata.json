@@ -1,0 +1,68 @@
+{
+  "hash": "ba9120e0",
+  "browserHash": "a072bc7a",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "1fd5f384",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "f58a1d40",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "2f366064",
+      "needsInterop": false
+    },
+    "scrollreveal": {
+      "src": "../../node_modules/scrollreveal/dist/scrollreveal.es.js",
+      "file": "scrollreveal.js",
+      "fileHash": "8d1e5df9",
+      "needsInterop": false
+    },
+    "react-typed": {
+      "src": "../../node_modules/react-typed/dist/react-typed.js",
+      "file": "react-typed.js",
+      "fileHash": "ca5b1a6f",
+      "needsInterop": true
+    },
+    "react-transition-group": {
+      "src": "../../node_modules/react-transition-group/esm/index.js",
+      "file": "react-transition-group.js",
+      "fileHash": "4355a613",
+      "needsInterop": false
+    },
+    "@iconify/react": {
+      "src": "../../node_modules/@iconify/react/dist/iconify.mjs",
+      "file": "@iconify_react.js",
+      "fileHash": "f62eaac3",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "63120ada",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-4DJ5K47R": {
+      "file": "chunk-4DJ5K47R.js"
+    },
+    "chunk-MKG3NT3Y": {
+      "file": "chunk-MKG3NT3Y.js"
+    },
+    "chunk-67XTWVEJ": {
+      "file": "chunk-67XTWVEJ.js"
+    },
+    "chunk-5WWUZCGV": {
+      "file": "chunk-5WWUZCGV.js"
+    }
+  }
+}
