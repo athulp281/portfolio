@@ -1,0 +1,78 @@
+.smokevideo {
+    object-fit: cover;
+}
+
+.smokesection {
+    background: #000;
+}
+
+.smoketext {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-30%);
+    transform: translateX(-10%);
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    /* color: #f5f5f5; */
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.smoketext span {
+    display: inline-block;
+    animation: animate 1s ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0%;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}
+.smoketext span:nth-child(1) {
+    animation-delay: 0.6s;
+}
+.smoketext span:nth-child(2) {
+    animation-delay: 1s;
+}
+.smoketext span:nth-child(3) {
+    animation-delay: 1.7s;
+}
+.smoketext span:nth-child(4) {
+    animation-delay: 2.3s;
+}
+.smoketext span:nth-child(5) {
+    animation-delay: 2.7s;
+}
+.smoketext span:nth-child(6) {
+    animation-delay: 3.2s;
+}
+.smoketext span:nth-child(7) {
+    animation-delay: 3.7s;
+}
+.smoketext span:nth-child(8) {
+    animation-delay: 4s;
+}
+@media only screen and (max-width: 540px) {
+    .smoketext {
+        position: absolute;
+        top: 20%;
+        transform: translateY(-30%);
+        transform: translateX(-10%);
+        width: 100%;
+        text-align: center;
+        letter-spacing: 1rem;
+        text-transform: uppercase;
+        /* color: #f5f5f5; */
+        font-size: 2em;
+        font-family: sans-serif;
+    }
+}
