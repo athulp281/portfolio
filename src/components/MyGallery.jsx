@@ -3,6 +3,7 @@ import ScrollReveal from "scrollreveal";
 import MyContext from "../useContext/Context";
 import "../assets/Css/MyGallery.css";
 import instaimg from "../assets/img/insta-img.png";
+import useResponsive from "../Hooks/useResponsive";
 import img1 from "../assets/img/1.jpg";
 import img2 from "../assets/img/2.jpg";
 import img3 from "../assets/img/3.jpg";
@@ -11,8 +12,13 @@ import img5 from "../assets/img/5.jpg";
 import img6 from "../assets/img/6.jpg";
 import img7 from "../assets/img/7.jpg";
 import img8 from "../assets/img/8.jpg";
+import ImageSlider from "./ImageSlider";
+import ImgSlider from "./ImgSlider";
 
 export default function MyGallery() {
+    const smUp = useResponsive("up", "sm");
+
+    const mdUp = useResponsive("up", "md");
     const { data, setData } = useContext(MyContext);
     useEffect(() => {
         // Initialize ScrollReveal
@@ -73,35 +79,38 @@ export default function MyGallery() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="main-container">
-                            <div className="image-container">
-                                <span style={inlineStyle1}>
-                                    <img src={img1} alt="not found" />
-                                </span>
-                                <span style={inlineStyle2}>
-                                    <img src={img2} alt="not found" />
-                                </span>
-                                <span style={inlineStyle3}>
-                                    <img src={img3} alt="not found" />
-                                </span>
-                                <span style={inlineStyle4}>
-                                    <img src={img4} alt="not found" />
-                                </span>
-                                <span style={inlineStyle5}>
-                                    <img src={img5} alt="not found" />
-                                </span>
-                                <span style={inlineStyle6}>
-                                    <img src={img6} alt="not found" />
-                                </span>
-                                <span style={inlineStyle7}>
-                                    <img src={img7} alt="not found" />
-                                </span>
-                                <span style={inlineStyle8}>
-                                    <img src={img8} alt="not found" />
-                                </span>
+                        {smUp ? (
+                            <div className="main-container">
+                                <div className="image-container">
+                                    <span style={inlineStyle1}>
+                                        <img src={img1} alt="not found" />
+                                    </span>
+                                    <span style={inlineStyle2}>
+                                        <img src={img2} alt="not found" />
+                                    </span>
+                                    <span style={inlineStyle3}>
+                                        <img src={img3} alt="not found" />
+                                    </span>
+                                    <span style={inlineStyle4}>
+                                        <img src={img4} alt="not found" />
+                                    </span>
+                                    <span style={inlineStyle5}>
+                                        <img src={img5} alt="not found" />
+                                    </span>
+                                    <span style={inlineStyle6}>
+                                        <img src={img6} alt="not found" />
+                                    </span>
+                                    <span style={inlineStyle7}>
+                                        <img src={img7} alt="not found" />
+                                    </span>
+                                    <span style={inlineStyle8}>
+                                        <img src={img8} alt="not found" />
+                                    </span>
+                                </div>
                             </div>
-                        </div>
+                        ) : (
+                            <ImgSlider />
+                        )}
                     </section>
                 </main>
             </div>
