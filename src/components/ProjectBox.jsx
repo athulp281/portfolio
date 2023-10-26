@@ -6,9 +6,11 @@ import "../assets/Css/ProjectCard.css";
 import adminPanelimg from "../assets/ProjectCardImages/intrvl-admn-pnl.png";
 import mypersonalportfolio from "../assets/ProjectCardImages/my-personal-portfolio.png";
 import dynamicform from "../assets/ProjectCardImages/dynamic-form.png";
+import useResponsive from "../Hooks/useResponsive";
 
 export default function ProjectBox() {
     const { data, setData } = useContext(MyContext);
+    const smUp = useResponsive("up", "sm");
     useEffect(() => {
         // Initialize ScrollReveal
         ScrollReveal().reveal(".element-to-animate", {
@@ -22,7 +24,7 @@ export default function ProjectBox() {
         <>
             <div className="element-to-animate">
                 <div style={{ backgroundColor: data }}>
-                    <main className="wrapper">
+                    <main className={smUp ? "wrapper" : "wrapper-mobile"}>
                         {/* <!-- -------------- PROJECT BOX ---------------- --> */}
                         <div className="top-header">
                             <h2
@@ -35,7 +37,10 @@ export default function ProjectBox() {
                             </h2>
                         </div>
 
-                        <section className="section" id="projects">
+                        <section
+                            className={smUp ? "section" : "section-mobile"}
+                            id="projects"
+                        >
                             <div className="project-container">
                                 <div className="pro-box">
                                     <img

@@ -56,9 +56,12 @@ export default function MyGallery() {
     return (
         <div className="element-to-animate">
             <div style={{ backgroundColor: data }}>
-                <main className="wrapper">
+                <main className={smUp ? "wrapper" : "wrapper-mobile"}>
                     {/* <!-- -------------- ABOUT BOX ---------------- --> */}
-                    <section className="section" id="about">
+                    <section
+                        className={smUp ? "section" : "section-mobile"}
+                        id="about"
+                    >
                         <div className="top-header">
                             {/* ---------------------------------- */}
                             <h2

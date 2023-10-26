@@ -1,9 +1,11 @@
 import React, { useContext, useEffect } from "react";
 import MyContext from "../useContext/Context";
 import ScrollReveal from "scrollreveal";
+import useResponsive from "../Hooks/useResponsive";
 
 export default function Footer() {
     const { data, setData } = useContext(MyContext);
+    const smUp = useResponsive("up", "sm");
     useEffect(() => {
         // Initialize ScrollReveal
         ScrollReveal().reveal(".element-to-animate", {
@@ -17,7 +19,7 @@ export default function Footer() {
     return (
         <div className="element-to-animate">
             <div style={{ backgroundColor: data }}>
-                <main className="wrapper">
+                <main className={smUp ? "wrapper" : "wrapper-mobile"}>
                     <footer style={{ backgroundColor: data }}>
                         <div className="top-footer">
                             <p>Athul P .</p>
