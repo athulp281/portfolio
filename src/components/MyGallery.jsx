@@ -12,7 +12,6 @@ import img5 from "../assets/img/5.jpg";
 import img6 from "../assets/img/6.jpg";
 import img7 from "../assets/img/7.jpg";
 import img8 from "../assets/img/8.jpg";
-import ImageSlider from "./ImageSlider";
 import ImgSlider from "./ImgSlider";
 
 export default function MyGallery() {

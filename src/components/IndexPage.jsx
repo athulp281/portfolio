@@ -6,8 +6,6 @@ import ProjectBox from "./ProjectBox";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import MyGallery from "./MyGallery";
-import ImageSlider from "./ImageSlider";
-import ImgSlider from "./ImgSlider";
 
 export default function IndexPage() {
     return (
@@ -17,7 +15,6 @@ export default function IndexPage() {
             <AboutBox />
             <ProjectBox />
             <MyGallery />
-            <ImageSlider />
             <Contact />
             <Footer />
         </div>
