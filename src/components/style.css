@@ -61,6 +61,11 @@ html {
 .btn > i {
     margin-left: 10px;
 }
+.nav-btn {
+    margin-top: 20px;
+    height: 35px;
+    width: 50px;
+}
 .btn:hover {
     background: var(--second-color);
     color: var(--color-white);

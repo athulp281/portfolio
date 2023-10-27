@@ -20,19 +20,23 @@ export default function Loader() {
         <CSSTransition
             in={true} // Set to true initially
             timeout={1000} // Match the animation duration
-            classNames="loader" // Use the animation class names
+            classNameNames="loader" // Use the animation className names
             unmountOnExit
         >
             <div className="loader">
-                <div className="percentage-loader">
-                    <div className="percentage-text">{percentage}%</div>
-                    <div className="progress-bar">
+                {/* <div classNameName="percentage-loader">
+                    <div classNameName="percentage-text">{percentage}%</div>
+                    <div classNameName="progress-bar">
                         <div
-                            className="progress"
+                            classNameName="progress"
                             style={{ width: `${percentage}%` }}
                         ></div>
                     </div>
-                </div>
+                </div> */}
+
+                <div className="loader-color"></div>
+                <div className="loader-border"></div>
+                <div className="loader-circle"></div>
             </div>
         </CSSTransition>
     );

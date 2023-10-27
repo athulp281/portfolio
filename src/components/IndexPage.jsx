@@ -6,6 +6,7 @@ import ProjectBox from "./ProjectBox";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import MyGallery from "./MyGallery";
+import ProgressBar from "./ProgressBar";
 
 export default function IndexPage() {
     return (
@@ -13,6 +14,7 @@ export default function IndexPage() {
             <Header />
             <FeatureBox />
             <AboutBox />
+            <ProgressBar />
             <ProjectBox />
             <MyGallery />
             <Contact />

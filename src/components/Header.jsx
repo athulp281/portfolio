@@ -160,14 +160,21 @@ export default function Header() {
                             }}
                         >
                             {data === "black" ? (
-                                <button onClick={handleClick} className="btn">
+                                <button
+                                    onClick={handleClick}
+                                    className="nav-btn"
+                                    style={{ background: "black" }}
+                                >
                                     <Icon
                                         icon="material-symbols:brightness-3"
-                                        color="black"
+                                        color="white"
                                     />
                                 </button>
                             ) : (
-                                <button onClick={handleClick} className="btn">
+                                <button
+                                    onClick={handleClick}
+                                    className="nav-btn"
+                                >
                                     <Icon
                                         icon="streamline:interface-lighting-brightness-1-bright-adjust-brightness-adjustment-sun-raise-controls"
                                         color="black"
