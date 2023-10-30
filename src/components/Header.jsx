@@ -197,7 +197,7 @@ export default function Header() {
                                     icon="material-symbols:brightness-3"
                                     width="22"
                                     height="22"
-                                    color="black"
+                                    // color="black"
                                 />
                             </button>
                         ) : (

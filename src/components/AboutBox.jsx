@@ -7,12 +7,11 @@ export default function AboutBox() {
     const { data, setData } = useContext(MyContext);
     const smUp = useResponsive("up", "sm");
     useEffect(() => {
-        // Initialize ScrollReveal
         ScrollReveal().reveal(".element-to-animate", {
-            duration: 1000, // Animation duration in milliseconds
-            origin: "top", // Animation starting point (top, bottom, left, right, etc.)
-            distance: "20px", // Distance the element moves during the animation
-            delay: 200, // Delay before the animation starts (in milliseconds)
+            duration: 1000,
+            origin: "top",
+            distance: "20px",
+            delay: 200,
         });
     }, []);
     return (
