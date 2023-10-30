@@ -174,10 +174,11 @@ export default function Header() {
                                 <button
                                     onClick={handleClick}
                                     className="nav-btn"
+                                    style={{ background: "white" }}
                                 >
                                     <Icon
                                         icon="streamline:interface-lighting-brightness-1-bright-adjust-brightness-adjustment-sun-raise-controls"
-                                        color="black"
+                                        color="white"
                                     />
                                 </button>
                             )}
@@ -197,7 +198,7 @@ export default function Header() {
                                     icon="material-symbols:brightness-3"
                                     width="22"
                                     height="22"
-                                    // color="black"
+                                    color="black"
                                 />
                             </button>
                         ) : (
