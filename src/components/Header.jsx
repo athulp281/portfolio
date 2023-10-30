@@ -178,7 +178,7 @@ export default function Header() {
                                 >
                                     <Icon
                                         icon="streamline:interface-lighting-brightness-1-bright-adjust-brightness-adjustment-sun-raise-controls"
-                                        color="white"
+                                        color="black"
                                     />
                                 </button>
                             )}
