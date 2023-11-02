@@ -66,6 +66,12 @@ html {
     height: 35px;
     width: 50px;
 }
+.nav-btn:focus {
+    outline: none;
+    box-shadow: none;
+    /* Or you can set the border to none if there's a border */
+    border: none;
+}
 .btn:hover {
     background: var(--second-color);
     color: var(--color-white);

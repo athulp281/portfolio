@@ -174,7 +174,7 @@ export default function Header() {
                                 <button
                                     onClick={handleClick}
                                     className="nav-btn"
-                                    style={{ background: "white" }}
+                                    style={{ background: "rgb(250, 250, 250)" }}
                                 >
                                     <Icon
                                         icon="streamline:interface-lighting-brightness-1-bright-adjust-brightness-adjustment-sun-raise-controls"

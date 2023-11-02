@@ -29,52 +29,79 @@ export default function ProgressBar() {
                     className="skill-bars"
                     style={{ background: data == "black" ? "black" : "" }}
                 >
-                    <div className="bar">
-                        <div className="info">
-                            <span>HTML</span>
+                    <div>
+                        <div className="bar">
+                            <div
+                                className={
+                                    data == "black" ? "info" : "info-dark"
+                                }
+                            >
+                                <span className="label">HTML</span>
+                            </div>
+                            <div className="progress-line html">
+                                <span></span>
+                            </div>
                         </div>
-                        <div className="progress-line html">
-                            <span></span>
+
+                        <div className="bar">
+                            <div
+                                className={
+                                    data == "black" ? "info" : "info-dark"
+                                }
+                            >
+                                <span className="label">CSS</span>
+                            </div>
+                            <div className="progress-line css">
+                                <span></span>
+                            </div>
                         </div>
-                    </div>
-                    <div className="bar">
-                        <div className="info">
-                            <span>CSS</span>
+                        <div className="bar">
+                            <div
+                                className={
+                                    data == "black" ? "info" : "info-dark"
+                                }
+                            >
+                                <span className="label">JavaScript</span>
+                            </div>
+                            <div className="progress-line jquery">
+                                <span></span>
+                            </div>
                         </div>
-                        <div className="progress-line css">
-                            <span></span>
+                        <div className="bar">
+                            <div
+                                className={
+                                    data == "black" ? "info" : "info-dark"
+                                }
+                            >
+                                <span className="label">React</span>
+                            </div>
+                            <div className="progress-line python">
+                                <span></span>
+                            </div>
                         </div>
-                    </div>
-                    <div className="bar">
-                        <div className="info">
-                            <span>JavaScript</span>
+                        <div className="bar">
+                            <div
+                                className={
+                                    data == "black" ? "info" : "info-dark"
+                                }
+                            >
+                                <span className="label">MySQL</span>
+                            </div>
+                            <div className="progress-line mysql">
+                                <span></span>
+                            </div>
                         </div>
-                        <div className="progress-line jquery">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div className="bar">
-                        <div className="info">
-                            <span>React</span>
-                        </div>
-                        <div className="progress-line python">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div className="bar">
-                        <div className="info">
-                            <span>MySQL</span>
-                        </div>
-                        <div className="progress-line mysql">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div className="bar">
-                        <div className="info">
-                            <span>NodeJs</span>
-                        </div>
-                        <div className="progress-line nodejs">
-                            <span></span>
+                        <div className="bar">
+                            <div
+                                className={
+                                    data == "black" ? "info" : "info-dark"
+                                }
+                            >
+                                <span className="label">NodeJs</span>
+                            </div>
+                            <div className="progress-line nodejs">
+                                <span></span>
+                            </div>
                         </div>
                     </div>
                 </div>

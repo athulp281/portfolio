@@ -26,10 +26,11 @@
 }
 .skill-bars {
     padding: 25px 30px;
-    width: 82%;
+    width: 90%;
     background: #fff;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .skill-bars-dark-modes {
     padding: 25px 30px;
@@ -50,9 +51,18 @@
 .skill-bars .bar .info span {
     font-weight: 500;
     font-size: 17px;
+    color: #fff;
     opacity: 0;
     animation: showText 0.5s 1s linear forwards;
 }
+.skill-bars .bar .info-dark .label {
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+
 @keyframes showText {
     100% {
         opacity: 1;
@@ -100,7 +110,7 @@
     width: 50%;
 }
 .bar .progress-line.nodejs span {
-    width: 30%;
+    width: 40%;
 }
 .progress-line span::before {
     position: absolute;
@@ -150,5 +160,5 @@
     content: "50%";
 }
 .progress-line.nodejs span::after {
-    content: "30%";
+    content: "40%";
 }
