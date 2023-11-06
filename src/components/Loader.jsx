@@ -20,7 +20,7 @@ export default function Loader() {
         <CSSTransition
             in={true} // Set to true initially
             timeout={1000} // Match the animation duration
-            classNameNames="loader" // Use the animation className names
+            className="loader" // Use the animation className names
             unmountOnExit
         >
             <div className="loader">
