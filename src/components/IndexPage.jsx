@@ -7,18 +7,19 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import MyGallery from "./MyGallery";
 import ProgressBar from "./ProgressBar";
+import useResponsive from "../Hooks/useResponsive";
 
 export default function IndexPage() {
-    return (
-        <div>
-            <Header />
-            <FeatureBox />
-            <AboutBox />
-            <ProgressBar />
-            <ProjectBox />
-            <MyGallery />
-            <Contact />
-            <Footer />
-        </div>
-    );
+  return (
+    <div>
+      <Header />
+      <FeatureBox />
+      <AboutBox />
+      <ProgressBar />
+      <ProjectBox />
+      <MyGallery />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
