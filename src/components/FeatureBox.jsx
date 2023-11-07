@@ -107,6 +107,8 @@ export default function FeatureBox() {
                                                             borderStyle:
                                                                 "dashed",
                                                             paddingLeft: "10px",
+                                                            backgroundColor:
+                                                                "white",
                                                         }}
                                                     />
                                                 </div>
@@ -128,6 +130,8 @@ export default function FeatureBox() {
                                                             borderStyle:
                                                                 "dashed",
                                                             paddingLeft: "10px",
+                                                            backgroundColor:
+                                                                "white",
                                                         }}
                                                     />
                                                 </div>
@@ -145,6 +149,8 @@ export default function FeatureBox() {
                                                             borderStyle:
                                                                 "dashed",
                                                             paddingLeft: "10px",
+                                                            backgroundColor:
+                                                                "white",
                                                         }}
                                                     />
                                                 </div>

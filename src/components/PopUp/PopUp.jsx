@@ -44,6 +44,10 @@ export default function PopUp({ title, content, status, setStatus }) {
                             }}
                         >
                             <button
+                                style={{
+                                    backgroundColor: "white",
+                                    color: "black",
+                                }}
                                 onClick={() => {
                                     setActiveAnimation("");
                                     document.body.classList.remove(
@@ -56,8 +60,9 @@ export default function PopUp({ title, content, status, setStatus }) {
                                 X
                             </button>
                         </div>
-                        <h2>{title}</h2>
-                        {/* <p>fill below..</p> */}
+                        <h2 style={{ color: "black", opacity: ".8" }}>
+                            {title}
+                        </h2>
                         <div>{content}</div>
                     </div>
                 </div>
