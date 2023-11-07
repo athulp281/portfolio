@@ -109,6 +109,7 @@ export default function FeatureBox() {
                                                             paddingLeft: "10px",
                                                             backgroundColor:
                                                                 "white",
+                                                            color: "black",
                                                         }}
                                                     />
                                                 </div>
@@ -132,6 +133,7 @@ export default function FeatureBox() {
                                                             paddingLeft: "10px",
                                                             backgroundColor:
                                                                 "white",
+                                                            color: "black",
                                                         }}
                                                     />
                                                 </div>
@@ -151,6 +153,7 @@ export default function FeatureBox() {
                                                             paddingLeft: "10px",
                                                             backgroundColor:
                                                                 "white",
+                                                            color: "black",
                                                         }}
                                                     />
                                                 </div>
