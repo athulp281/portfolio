@@ -5,7 +5,7 @@ import Typed from "react-typed";
 import "../components/style.css";
 import "../assets/Css/ExtreamGlitch.css";
 import useResponsive from "../Hooks/useResponsive";
-import PopUp from "./PopUp/PopUp";
+import PopUp from "../components/PopUp/PopUp";
 import { useState } from "react";
 
 const TypedText = () => {
@@ -19,8 +19,8 @@ const TypedText = () => {
     );
 };
 
-export default function FeatureBox() {
-    const [status, setStatus] = useState(false);
+export default function FeatureBox({ setStatus }) {
+    // const [status, setStatus] = useState(false);
     const smUp = useResponsive("up", "sm");
     useEffect(() => {
         // Initialize ScrollReveal
@@ -76,7 +76,7 @@ export default function FeatureBox() {
                                 >
                                     Hire Me
                                 </button>
-                                <PopUp
+                                {/* <PopUp
                                     status={status}
                                     setStatus={setStatus}
                                     title={"Contact Me"}
@@ -178,7 +178,7 @@ export default function FeatureBox() {
                                             </div>
                                         </>
                                     }
-                                />
+                                /> */}
                                 <button
                                     className="btn"
                                     style={{ color: "black" }}

@@ -1,5 +1,5 @@
 import React from "react";
-import IndexPage from "./IndexPage";
+import IndexPage from "../Pages/IndexPage";
 
 export default function Home() {
     return (
