@@ -18,22 +18,12 @@ export default function Loader() {
     }, [percentage]);
     return (
         <CSSTransition
-            in={true} // Set to true initially
-            timeout={1000} // Match the animation duration
-            className="loader" // Use the animation className names
+            in={true}
+            timeout={1000}
+            className="loader"
             unmountOnExit
         >
             <div className="loader">
-                {/* <div classNameName="percentage-loader">
-                    <div classNameName="percentage-text">{percentage}%</div>
-                    <div classNameName="progress-bar">
-                        <div
-                            classNameName="progress"
-                            style={{ width: `${percentage}%` }}
-                        ></div>
-                    </div>
-                </div> */}
-
                 <div className="loader-color"></div>
                 <div className="loader-border"></div>
                 <div className="loader-circle"></div>
