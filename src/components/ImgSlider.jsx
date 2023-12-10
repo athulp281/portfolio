@@ -48,11 +48,7 @@ export default function ImgSlider() {
         },
     ];
     return (
-        <AutoplaySlider
-            play={true}
-            cancelOnInteraction={false} // should stop playing on user interaction
-            interval={1000}
-        >
+        <AutoplaySlider play={true} cancelOnInteraction={false} interval={1000}>
             {myArry.map((item) => {
                 return (
                     <div
